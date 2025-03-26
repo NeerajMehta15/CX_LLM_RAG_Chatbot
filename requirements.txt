@@ -1,0 +1,11 @@
+langchain==0.1.16
+langchain-community==0.0.29
+transformers==4.38.2
+torch==2.2.1
+chromadb==0.4.24
+sentence-transformers==2.4.0
+streamlit==1.31.1
+python-dotenv==1.0.0
+pandas==2.2.1
+numpy==1.26.4
+openai==1.13.3
