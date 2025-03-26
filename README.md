@@ -1,40 +1,24 @@
 Project Overview
-An AI-powered chatbot to resolve resident queries using RAG and Llama 3.
-Setup Instructions
+An AI-powered customer support chatbot designed to resolve resident queries using RAG and Llama 3. It retrieves accurate answers from an FAQ database and provides intelligent, contextual responses.
 
-Clone the repository
-Create a virtual environment
+How It Works
+Understands customer queries using LangChain and Llama 3.
 
-bashCopypython -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+Fetches relevant answers from a ChromaDB vector database using RAG.
 
-Install dependencies
+Delivers precise, human-like responses based on stored knowledge.
 
-bashCopypip install -r requirements.txt
+Setup Summary
+Project environment configured.
 
-Prepare your CSV
+FAQ database structured and integrated.
 
+AI models and vector search optimized for fast retrieval.
 
-Place your FAQ CSV in data/raw/faqs.csv
-Ensure columns: 'question', 'answer'
+Chatbot deployed via Streamlit for user interaction.
 
-
-Set up environment variables
-
-
-Create a .env file
-Add any necessary configuration variables
-
-
-Run the application
-
-bashCopystreamlit run main.py
-Key Components
-
-LangChain integration
-Llama 3 LLM
-ChromaDB Vector Database
-RAG for intelligent responses
-
-Note
-Ensure you have the necessary model access and permissions for Llama 3.
+Key Features
+✅ Instant query resolution with AI-powered search.
+✅ Context-aware responses using RAG + Llama 3.
+✅ Scalable knowledge base powered by ChromaDB.
+✅ User-friendly interface for seamless interaction.
