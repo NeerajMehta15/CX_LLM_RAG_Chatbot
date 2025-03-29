@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: Stanza_CX_Chatbot
+Version: 0.0.1
+Author: Neeraj Mehta
+Author-email: Neerajmehta15@hotmail.com
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: transformers==4.38.2
+Requires-Dist: torch==2.2.1
+Requires-Dist: chromadb==0.4.24
+Requires-Dist: sentence-transformers==2.4.0
+Requires-Dist: streamlit==1.31.1
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: pandas==2.2.1
+Requires-Dist: numpy==1.26.4
+Requires-Dist: openai==1.13.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
